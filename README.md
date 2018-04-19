@@ -5,18 +5,14 @@ ProjectK is a kernel based on CAF 3.18 kernel source with linux-stable merged in
 
 ## Release Notes ##
 -------------------------------
-* [RELEASE NOTES PROJECTK](https://github.com/khusika/projectk_kernel_xiaomi_msm8953/releases)
+* [Click me !](https://github.com/khusika/projectk_kernel_xiaomi_msm8953/releases)
 
 ## How To Build ##
 -------------------------------
 
-For Tissot:
-
-    $ export CROSS_COMPILE=YOUR TOOLCHAIN(# GCC/LINARO) && export ARCH=arm64 && make tissot_defconfig && make -j(# of cores)
-
-For Mido:
-
-    $ export CROSS_COMPILE=YOUR TOOLCHAIN(# GCC/LINARO) && export ARCH=arm64 && make mido_defconfig && make -j(# of cores)
+    $ git clone https://github.com/khusika/projectk_kernel_xiaomi_msm8953 -b projectk
+    $ cd ~/projectk_kernel_xiaomi_msm8953
+    $ export CROSS_COMPILE=YOUR TOOLCHAIN(GCC/LINARO) && export ARCH=arm64 && make (SupportedDevice)_defconfig && make -j(# of cores)
 
 ## Supported Devices
 -------------------------------
