@@ -5,26 +5,26 @@ ProjectK is a kernel based on CAF 3.18 kernel source with linux-stable merged in
 
 ## Release Notes ##
 -------------------------------
-* [RELEASE NOTES PROJECTK] (https://github.com/khusika/projectk_kernel_xiaomi_msm8953/releases)
+* [RELEASE NOTES PROJECTK](https://github.com/khusika/projectk_kernel_xiaomi_msm8953/releases)
 
 ## How To Build ##
 -------------------------------
 
 For Tissot:
 
-    export CROSS_COMPILE=YOUR TOOLCHAIN && export ARCH=arm64 && make tissot_defconfig && make -j(# of cores)
+    $ export CROSS_COMPILE=YOUR TOOLCHAIN(# GCC/LINARO) && export ARCH=arm64 && make tissot_defconfig && make -j(# of cores)
 
 For Mido:
 
-    export CROSS_COMPILE=YOUR TOOLCHAIN && export ARCH=arm64 && make mido_defconfig && make -j(# of cores)
+    $ export CROSS_COMPILE=YOUR TOOLCHAIN(# GCC/LINARO) && export ARCH=arm64 && make mido_defconfig && make -j(# of cores)
 
 ## Supported Devices
 -------------------------------
 
-| DEVICE                         |
-| :----------------------------- |
-| Mi A1 (Tissot)                 |
-| Redmi Note 4 Snapdragon (Mido) |
+| DEVICE                         |  DOWNLOAD LINK  |
+| :----------------------------- | :-------------- |
+| Mi A1 (Tissot)                 | [XDA-DEVELOPERS](https://forum.xda-developers.com/mi-a1/development/kernel-projectk-t3771691)  |
+| Redmi Note 4 Snapdragon (Mido) | COMINGSOON      |
 
 ## Features ##
 -------------------------------
@@ -56,4 +56,4 @@ For Mido:
 * Intellithermal v3.1 Driver
 * Support PowerSuspend
 * Adreno idler
-* for more info check my [commits] (https://github.com/khusika/projectk_kernel_xiaomi_msm8953/commits/projectk)
+* for more info check my [commits](https://github.com/khusika/projectk_kernel_xiaomi_msm8953/commits/projectk)
