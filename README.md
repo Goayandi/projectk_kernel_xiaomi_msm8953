@@ -1,11 +1,10 @@
 # ProjectK #
----
-ProjectK is a kernel based on CAF 3.18 kernel source with linux-stable merged in comingout with bunch of a features for MSM893.
----
-
-## Release Notes ##
 -------------------------------
-* [Click me !](https://github.com/khusika/projectk_kernel_xiaomi_msm8953/releases)
+> ProjectK is a kernel based on CAF 3.18 kernel source with linux-stable merged in comingout with bunch of features for MSM8953.
+
+## Info ##
+-------------------------------
+* [Release Notes](https://github.com/khusika/projectk_kernel_xiaomi_msm8953/releases)
 
 ## How To Build ##
 -------------------------------
@@ -14,7 +13,7 @@ ProjectK is a kernel based on CAF 3.18 kernel source with linux-stable merged in
     $ cd ~/projectk_kernel_xiaomi_msm8953
     $ export CROSS_COMPILE=YOUR TOOLCHAIN(GCC/LINARO) && export ARCH=arm64 && make (SupportedDevice)_defconfig && make -j(# of cores)
 
-## Supported Devices
+## Supported Devices ##
 -------------------------------
 
 | DEVICE                         |  DOWNLOAD LINK  |
@@ -29,12 +28,13 @@ ProjectK is a kernel based on CAF 3.18 kernel source with linux-stable merged in
 
 * Linux version 3.18.105
 * CAF Tag LA.UM.6.6.r1-07200-89xx.0
-* CPU Governors: relaxed, chill, electron, impulse, zzmoove, alucard, darkness, nightmare, yankactive, intelliactive, blu_active, interactive, conservative, ondemand, powersave, performance, userspace
+* CPU Governors: relaxed, chill, electron, impulse, zzmoove, alucard, darkness, nightmare, yankactive, intelliactive, blu_active, **_interactive_**, conservative, ondemand, powersave, performance, userspace
 * CPU Hotplugs: autosmp, alucard_hotplug, thunderplug, blu_plug, msm_hotplug, intelli_plug, lazyplug
-* I/O Schedulers: noop, deadline, cfq, zen, fiops, sio, maple, bfq
+* I/O Schedulers: noop, deadline, cfq, zen, fiops, sio, **_maple_**, bfq
 * Live Display Driver
 * Native DT2W support
 * WireGuard VPN support
+* Double Tap to Wake (D2TW)
 * Frandom
 * KCAL colour control
 * Sound Control
