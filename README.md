@@ -20,7 +20,9 @@ ProjectK is a kernel based on CAF 3.18 kernel source with linux-stable merged in
 | DEVICE                         |  DOWNLOAD LINK  |
 | :----------------------------- | :-------------- |
 | Mi A1 (Tissot)                 | [XDA-DEVELOPERS](https://forum.xda-developers.com/mi-a1/development/kernel-projectk-t3771691)  |
+| Redmi 5 Plus (Vince)           | COMINGSOON      |
 | Redmi Note 4 Snapdragon (Mido) | COMINGSOON      |
+| Redmi 4 Prime (Markw)          | COMINGSOON      |
 
 ## Features ##
 -------------------------------
