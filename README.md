@@ -16,18 +16,18 @@
 ## Supported Devices ##
 -------------------------------
 
-| DEVICE                         |  DOWNLOAD LINK  |
-| :----------------------------- | :-------------- |
-| Mi A1 (Tissot)                 | [XDA-DEVELOPERS](https://forum.xda-developers.com/mi-a1/development/kernel-projectk-t3771691)  |
-| Redmi 5 Plus (Vince)           | COMINGSOON      |
-| Redmi Note 4 Snapdragon (Mido) | COMINGSOON      |
-| Redmi 4 Prime (Markw)          | COMINGSOON      |
+| DEVICE                         |      CONFIGS      |  DOWNLOAD LINK  |
+| :----------------------------- | :---------------- | :-------------- |
+| Mi A1 (Tissot)                 | tissot_defconfig  | [XDA-DEVELOPERS](https://forum.xda-developers.com/mi-a1/development/kernel-projectk-t3771691)  |
+| Redmi 5 Plus (Vince)           | mido_defconfig    | COMINGSOON      |
+| Redmi Note 4X (Mido)           | COMINGSOON        | COMINGSOON      |
+| Redmi 4 Prime (Markw)          | COMINGSOON        | COMINGSOON      |
 
 ## Features ##
 -------------------------------
 
 * Linux version 3.18.105
-* CAF Tag LA.UM.6.6.r1-07200-89xx.0
+* CAF Tag LA.UM.6.6.r1-07400-89xx.0
 * CPU Governors: relaxed, chill, electron, impulse, zzmoove, alucard, darkness, nightmare, yankactive, intelliactive, blu_active, **_interactive_**, conservative, ondemand, powersave, performance, userspace
 * CPU Hotplugs: autosmp, alucard_hotplug, thunderplug, blu_plug, msm_hotplug, intelli_plug, lazyplug
 * I/O Schedulers: noop, deadline, cfq, zen, fiops, sio, **_maple_**, bfq
