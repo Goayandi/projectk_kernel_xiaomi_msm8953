@@ -5,6 +5,7 @@
 ## Info ##
 -------------------------------
 * [Release Notes](https://github.com/khusika/projectk_kernel_xiaomi_msm8953/releases)
+* [AnyKernel2](https://github.com/khusika/AnyKernel2/)
 
 ## How To Build ##
 -------------------------------
@@ -26,11 +27,11 @@
 ## Features ##
 -------------------------------
 
-* Linux version 3.18.105
-* CAF Tag LA.UM.6.6.r1-07400-89xx.0
+* Linux version 3.18.106
+* CAF Tag LA.UM.6.6.r1-08300-89xx.0
 * CPU Governors: relaxed, chill, electron, impulse, zzmoove, alucard, darkness, nightmare, yankactive, intelliactive, blu_active, **_interactive_**, conservative, ondemand, powersave, performance, userspace
 * CPU Hotplugs: autosmp, alucard_hotplug, thunderplug, blu_plug, msm_hotplug, intelli_plug, lazyplug
-* I/O Schedulers: noop, deadline, cfq, zen, fiops, sio, **_maple_**, bfq
+* I/O Schedulers: noop, deadline, cfq, zen, fiops, sio, maple, bfq
 * Live Display Driver
 * Native DT2W support
 * WireGuard VPN support
@@ -44,7 +45,6 @@
 * Better performance
 * CRC & SHA256 crypto algorithms
 * Blocked many wakelocks
-* HZ 300
 * Removed safetynet flags (no need of magisk to bypass safteynet)
 * Improved zRAM with lz4 compression
 * Tweaked Westwood TCP Congestion set as default
